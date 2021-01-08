@@ -1,1 +1,1 @@
-web: gunicorn flbdeezer.wsgi
+web: gunicorn flbdeezer.flbdeezer.wsgi
