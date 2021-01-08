@@ -1,4 +1,5 @@
 from pathlib import Path
+import django_heroku
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'uc_xf*s$%baar-n-!whe&odbwz*^#hwc26_=kk*(rj6il=2p+z'
@@ -95,3 +96,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+django_heroku.settings(locals())
