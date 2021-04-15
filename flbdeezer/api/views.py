@@ -4,7 +4,8 @@ from django.http import JsonResponse
 from pydeezer import Deezer
 from pydeezer.constants import track_formats
 
-myarl = 'dc5b637d8a21db2175dced43ef16a9e6d6a49ca2cf764f63daf1dd0aa8e80175f843970a754e2412c2f207b2d58244ae112dd851826bfa544f1ea6ac9e49f215b749156c22ec6d7b376c09c7467e2dd8b8d636a68f4cef4d32fdad61fbeaa7a8'
+myarl = 'eb1bda7e044a481ca9cc8add51b0d663c8d48be7ad4386f23eac7254acf1ea59f1f6e445263d7d8c1e4d5ad696844351ba378c66e20276b5171a19fb437b276d78edc8f4f27f88e3189e4b225d7afe318d6a6fff7ebd6979e7efb37b8e089437'
+# Using my personal arl
 
 
 def searchdeezer(request):
